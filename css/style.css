@@ -1,0 +1,141 @@
+* {
+    font-family: myFont;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(../assets/Aeonik-Regular.7e421409.woff);
+}
+
+@font-face {
+    font-family: myFontLight;
+    src: url(../assets/Aeonik-Light.eee4734f.woff);
+}
+
+@font-face {
+    font-family: myFontBold;
+    src: url(../assets/Aeonik-Bold.66f19007.woff);
+}
+
+.font-light {
+    font-family: myFontLight;
+}
+
+.font-bold {
+    font-family: myFontBold;
+}
+
+.sign-in-link {
+    color: #3d87f5;
+}
+
+.bg-img {
+    background-image: url(../assets/AccentPersonalSleekBlue.05f1df9c.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.side-section {
+    position: fixed;
+    left: 0%;
+    margin: 0;
+}
+
+
+.form-section {
+    /* width: 60vw; */
+    max-width: 60vw;
+    margin-left: 39.7%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+
+
+@media screen and (max-width: 768px)  {
+    .form-section {
+        max-width: 100vw;
+        margin: 0;
+        width: 100%;
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width: 992px)  {
+    .form-section {
+        max-width: 100%;
+        margin: 0;
+        width: 100%;
+        height: 100vh;
+    }
+}
+
+@media screen and (min-width: 768px)  {
+    form {
+       width: 60%;
+    }
+}
+
+input::placeholder {
+    font-size: smaller;
+   
+}
+
+.form-control::placeholder {
+    color: gray;
+    opacity: 0.5;   
+}
+
+
+
+.form-control:focus {
+    border-color: rgb(61, 135, 245);
+    box-shadow: none;
+}
+
+.form-control {
+    height: 50px;
+}
+
+#create_act_btn {
+    height: 50px;
+    color: #bfbfbf;
+    background-color: #f2f2f2;
+    font-size: smaller;
+}
+
+.formm-label {
+    color: #444a58;
+}
+
+.sign_in_text {
+    color: #666666b3;
+}
+
+.customer_btn {
+    width: 48px;
+    height: 25px;
+}
+
+.customer_btn_div {
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 0%;
+    z-index: 13123125;
+    right: 0%;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    background-color: #27303d;
+    cursor: pointer;
+    box-shadow: 0 1px 6px 0 rgb(0 0 0 / 6%), 0 2px 32px 0 rgb(0 0 0 / 16%);;
+}
+
+#create_act_btn {
+    cursor: not-allowed;
+    background-color: rgb(242, 242, 242);
+}
+
+
+
